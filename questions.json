@@ -1,0 +1,460 @@
+[
+  {
+    "type": "fill-blank",
+    "category": "grammar",
+    "difficulty": "B1",
+    "question": "I ______ (wait) for the bus when it started to rain.",
+    "options": ["waited", "was waiting", "had waited", "am waiting"],
+    "correctAnswer": "was waiting",
+    "explanation": "We use the past continuous (was waiting) to describe an action in progress when another action interrupted it."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "grammar",
+    "difficulty": "B2",
+    "question": "If I ______ known about the meeting, I would have attended.",
+    "options": ["have", "had", "would have", "was"],
+    "correctAnswer": "had",
+    "explanation": "This is a Third Conditional sentence (If + Past Perfect, would have + V3) used for impossible past conditions."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "grammar",
+    "difficulty": "B2",
+    "question": "She is the woman ______ car was stolen last night.",
+    "options": ["who", "which", "whose", "whom"],
+    "correctAnswer": "whose",
+    "explanation": "'Whose' is the relative pronoun used to show possession."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "grammar",
+    "difficulty": "C1",
+    "question": "Rarely ______ such a beautiful sunset.",
+    "options": ["I have seen", "have I seen", "I saw", "saw I"],
+    "correctAnswer": "have I seen",
+    "explanation": "When sentences start with negative adverbs like 'Rarely', we use inversion (Auxiliary + Subject)."
+  },
+  {
+    "type": "fill-blank",
+    "category": "grammar",
+    "difficulty": "B1",
+    "question": "You ______ smoke in the hospital; it's strictly prohibited.",
+    "options": ["don't have to", "mustn't", "needn't", "shouldn't"],
+    "correctAnswer": "mustn't",
+    "explanation": "'Mustn't' expresses prohibition, whereas 'don't have to' means it's not necessary."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "grammar",
+    "difficulty": "C1",
+    "question": "By the time we arrive, the movie ______.",
+    "options": ["will start", "will be starting", "will have started", "starts"],
+    "correctAnswer": "will have started",
+    "explanation": "The Future Perfect (will have + V3) is used to say something will be finished before a specific time in the future."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "grammar",
+    "difficulty": "B2",
+    "question": "He was accused ______ stealing the money.",
+    "options": ["of", "for", "with", "about"],
+    "correctAnswer": "of",
+    "explanation": "The correct preposition for 'accused' is 'of'."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "grammar",
+    "difficulty": "C2",
+    "question": "It is essential that he ______ informed immediately.",
+    "options": ["be", "is", "was", "will be"],
+    "correctAnswer": "be",
+    "explanation": "This is the Subjunctive mood, used after adjectives of necessity. The base form of the verb is used."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "grammar",
+    "difficulty": "B1",
+    "question": "I prefer tea ______ coffee.",
+    "options": ["than", "to", "over", "instead"],
+    "correctAnswer": "to",
+    "explanation": "We say 'prefer X to Y', not 'than'."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "grammar",
+    "difficulty": "C1",
+    "question": "______ being tired, he finished the marathon.",
+    "options": ["Despite", "Although", "Even though", "However"],
+    "correctAnswer": "Despite",
+    "explanation": "'Despite' is a preposition and is followed by a noun or gerund (being), while 'Although' requires a full clause."
+  },
+
+
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "B2",
+    "question": "To 'hit the nail on the head' means to:",
+    "options": ["Do something exactly right", "Make a huge mistake", "Hurt yourself", "Build something"],
+    "correctAnswer": "Do something exactly right",
+    "explanation": "This idiom means to describe exactly what is causing a situation or problem."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "C1",
+    "question": "I'm feeling a bit 'under the weather' today.",
+    "options": ["Sad", "Sick", "Happy", "Confused"],
+    "correctAnswer": "Sick",
+    "explanation": "To feel 'under the weather' means to feel slightly ill or unwell."
+  },
+  {
+    "type": "fill-blank",
+    "category": "idioms",
+    "difficulty": "C1",
+    "question": "Don't count your chickens before they ______.",
+    "options": ["hatch", "run", "eat", "sleep"],
+    "correctAnswer": "hatch",
+    "explanation": "This means you shouldn't make plans that depend on something good happening before you know that it has actually happened."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "B2",
+    "question": "He 'let the cat out of the bag'. What did he do?",
+    "options": ["Released a pet", "Revealed a secret", "Lost his temper", "Made a mistake"],
+    "correctAnswer": "Revealed a secret",
+    "explanation": "To let the cat out of the bag is to reveal a secret carelessly or by mistake."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "C2",
+    "question": "It happens 'once in a blue moon'.",
+    "options": ["Frequently", "Rarely", "Never", "Always"],
+    "correctAnswer": "Rarely",
+    "explanation": "A blue moon is a rare phenomenon; thus, the idiom means something that happens very rarely."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "B2",
+    "question": "To 'burn the midnight oil' means:",
+    "options": ["To waste resources", "To work late into the night", "To cook dinner", "To start a fire"],
+    "correctAnswer": "To work late into the night",
+    "explanation": "Historically, people burned oil lamps to work or study late at night."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "C1",
+    "question": "We need to 'go back to the drawing board'.",
+    "options": ["Start over", "Hire an artist", "Give up", "Move forward"],
+    "correctAnswer": "Start over",
+    "explanation": "This means a plan has failed and you need to start from the beginning."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "B2",
+    "question": "That costs 'an arm and a leg'.",
+    "options": ["Very cheap", "Very expensive", "A fair price", "Free"],
+    "correctAnswer": "Very expensive",
+    "explanation": "This idiom describes something that is extremely pricey."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "C1",
+    "question": "Stop 'beating around the bush'.",
+    "options": ["Gardening", "Hitting a tree", "Avoiding the main topic", "Being aggressive"],
+    "correctAnswer": "Avoiding the main topic",
+    "explanation": "This means to delay talking about something difficult or unpleasant."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "idioms",
+    "difficulty": "C2",
+    "question": "He decided to 'bite the bullet'.",
+    "options": ["Eat something hard", "Face a difficult situation bravely", "Give up", "Attack someone"],
+    "correctAnswer": "Face a difficult situation bravely",
+    "explanation": "Historically derived from soldiers biting a bullet during surgery without anesthesia; implies enduring pain or a difficult task."
+  },
+
+
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "B1",
+    "question": "Can you ______ the radio? It's too loud.",
+    "options": ["turn down", "turn up", "turn on", "turn out"],
+    "correctAnswer": "turn down",
+    "explanation": "'Turn down' means to reduce the volume."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "B2",
+    "question": "I ran out of sugar, so I had to ______ coffee without it.",
+    "options": ["make up", "do without", "put up with", "get over"],
+    "correctAnswer": "do without",
+    "explanation": "'Do without' means to manage without having something."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "B2",
+    "question": "The meeting was ______ because the boss was sick.",
+    "options": ["called off", "called up", "called in", "called out"],
+    "correctAnswer": "called off",
+    "explanation": "'Call off' means to cancel an event."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "C1",
+    "question": "She really ______ her mother; they look exactly alike.",
+    "options": ["takes after", "looks for", "takes off", "looks after"],
+    "correctAnswer": "takes after",
+    "explanation": "'Take after' means to resemble a parent or ancestor."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "B2",
+    "question": "I can't ______ what he is saying; the connection is bad.",
+    "options": ["make out", "make up", "make for", "make off"],
+    "correctAnswer": "make out",
+    "explanation": "'Make out' means to manage to hear or see something."
+  },
+  {
+    "type": "fill-blank",
+    "category": "phrasal verbs",
+    "difficulty": "C1",
+    "question": "Please ______ the form and return it to the desk.",
+    "options": ["fill in", "fill up", "write in", "put on"],
+    "correctAnswer": "fill in",
+    "explanation": "'Fill in' (or fill out) is used for completing documents."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "B1",
+    "question": "Don't give up! Keep ______ trying.",
+    "options": ["on", "in", "up", "out"],
+    "correctAnswer": "on",
+    "explanation": "'Keep on' means to continue doing something."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "C2",
+    "question": "He ______ a great excuse for being late.",
+    "options": ["came up with", "came down with", "came into", "came across"],
+    "correctAnswer": "came up with",
+    "explanation": "'Come up with' means to invent or think of an idea/excuse."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "C1",
+    "question": "We need to ______ this problem before we launch.",
+    "options": ["iron out", "iron in", "press out", "flatten out"],
+    "correctAnswer": "iron out",
+    "explanation": "'Iron out' means to resolve or remove problems/details."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "phrasal verbs",
+    "difficulty": "B2",
+    "question": "I ______ my old teacher at the supermarket.",
+    "options": ["ran into", "ran over", "ran out", "ran away"],
+    "correctAnswer": "ran into",
+    "explanation": "'Run into' means to meet someone unexpectedly."
+  },
+
+
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "B1",
+    "question": "What is the antonym of 'Generous'?",
+    "options": ["Stingy", "Kind", "Rich", "Happy"],
+    "correctAnswer": "Stingy",
+    "explanation": "Generous means willing to give; Stingy means unwilling to give."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "B2",
+    "question": "What is the antonym of 'Artificial'?",
+    "options": ["Natural", "Fake", "Modern", "Expensive"],
+    "correctAnswer": "Natural",
+    "explanation": "Artificial is man-made; Natural occurs in nature."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "C1",
+    "question": "What is the antonym of 'Candid'?",
+    "options": ["Deceptive", "Honest", "Frank", "Open"],
+    "correctAnswer": "Deceptive",
+    "explanation": "Candid means open and honest; Deceptive means misleading or dishonest."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "B2",
+    "question": "What is the antonym of 'Vague'?",
+    "options": ["Clear", "Blurry", "Uncertain", "Dark"],
+    "correctAnswer": "Clear",
+    "explanation": "Vague means unclear or undefined; Clear is the direct opposite."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "C2",
+    "question": "What is the antonym of 'Ephemeral'?",
+    "options": ["Permanent", "Short-lived", "Brief", "Temporary"],
+    "correctAnswer": "Permanent",
+    "explanation": "Ephemeral means lasting a very short time; Permanent means lasting forever."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "B1",
+    "question": "What is the antonym of 'Innocent'?",
+    "options": ["Guilty", "Pure", "Young", "Safe"],
+    "correctAnswer": "Guilty",
+    "explanation": "Innocent means not having done wrong; Guilty means responsible for a crime."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "C1",
+    "question": "What is the antonym of 'Benevolent'?",
+    "options": ["Malevolent", "Kind", "Helpful", "Friendly"],
+    "correctAnswer": "Malevolent",
+    "explanation": "Benevolent means well-meaning; Malevolent means wishing to do evil."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "B2",
+    "question": "What is the antonym of 'Mandatory'?",
+    "options": ["Optional", "Required", "Compulsory", "Necessary"],
+    "correctAnswer": "Optional",
+    "explanation": "Mandatory means required; Optional means left to choice."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "C2",
+    "question": "What is the antonym of 'Amplify'?",
+    "options": ["Reduce", "Increase", "Expand", "Magnify"],
+    "correctAnswer": "Reduce",
+    "explanation": "Amplify means to make larger or louder; Reduce means to make smaller or quieter."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "antonyms",
+    "difficulty": "B1",
+    "question": "What is the antonym of 'Optimistic'?",
+    "options": ["Pessimistic", "Happy", "Hopeful", "Bright"],
+    "correctAnswer": "Pessimistic",
+    "explanation": "Optimistic is expecting the best; Pessimistic is expecting the worst."
+  },
+
+
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "B1",
+    "question": "A place where books are kept for reading or borrowing is a ______.",
+    "options": ["Library", "Bookstore", "Museum", "Gallery"],
+    "correctAnswer": "Library",
+    "explanation": "A library is a collection of books available for borrowing."
+  },
+  {
+    "type": "fill-blank",
+    "category": "vocabulary",
+    "difficulty": "C1",
+    "question": "The decision was ______, meaning everyone agreed.",
+    "options": ["unanimous", "anonymous", "ambiguous", "anomalous"],
+    "correctAnswer": "unanimous",
+    "explanation": "Unanimous means two or more people fully in agreement."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "B2",
+    "question": "Someone who travels to space is called an ______.",
+    "options": ["Astronaut", "Astronomer", "Astrologer", "Artist"],
+    "correctAnswer": "Astronaut",
+    "explanation": "An astronaut is a person trained to travel in a spacecraft."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "C2",
+    "question": "The quality of being honest and having strong moral principles is ______.",
+    "options": ["Integrity", "Intelligence", "Ingenuity", "Intensity"],
+    "correctAnswer": "Integrity",
+    "explanation": "Integrity refers to the quality of being honest and moral."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "B2",
+    "question": "To 'postpone' something means to ______.",
+    "options": ["Delay it", "Cancel it", "Start it", "Finish it"],
+    "correctAnswer": "Delay it",
+    "explanation": "Postpone means to cause or arrange for something to take place at a time later than that first scheduled."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "C1",
+    "question": "Something that is 'obsolete' is:",
+    "options": ["No longer produced or used", "Brand new", "Very popular", "Expensive"],
+    "correctAnswer": "No longer produced or used",
+    "explanation": "Obsolete means out of date."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "B1",
+    "question": "Which word describes a very tall building?",
+    "options": ["Skyscraper", "Mansion", "Cottage", "Bungalow"],
+    "correctAnswer": "Skyscraper",
+    "explanation": "A skyscraper is a very tall building of many stories."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "C2",
+    "question": "A person who is 'meticulous' is:",
+    "options": ["Very careful and precise", "Lazy and careless", "Fast and energetic", "Rude and angry"],
+    "correctAnswer": "Very careful and precise",
+    "explanation": "Meticulous showing great attention to detail."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "C1",
+    "question": "What is a 'synonym'?",
+    "options": ["A word with the same meaning", "A word with opposite meaning", "A rhyming word", "A long word"],
+    "correctAnswer": "A word with the same meaning",
+    "explanation": "A synonym is a word or phrase that means exactly or nearly the same as another word."
+  },
+  {
+    "type": "multiple-choice",
+    "category": "vocabulary",
+    "difficulty": "B2",
+    "question": "If something is 'inevitable', it is:",
+    "options": ["Certain to happen", "Unlikely to happen", "Avoidable", "Impossible"],
+    "correctAnswer": "Certain to happen",
+    "explanation": "Inevitable means unable to be avoided or evaded."
+  }
+]

@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 1. User Profiles: Strictly restrict to owner
+    match /users/{userId} {
+      allow create: if request.auth != null && request.auth.uid == userId;
+      allow read, update, delete: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // 2. Words: Allow any logged-in user to read/add words
+    match /words/{wordId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // 3. User Progress: Allow logged-in users to manage their progress
+    // (Ideally restrict by userId field, but for dev this is sufficient)
+    match /word_progress/{docId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // 4. Test Results: Allow logging test results
+    match /test_results/{docId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // 5. Activity Logs: Allow logging activity
+    match /activity_logs/{docId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
