@@ -78,5 +78,50 @@
     "explanation": "'Obstinate' means stubbornly refusing to change one's opinion or chosen course of action.",
     "difficulty": "medium",
     "examTags": ["Vocabulary"]
+  },
+  {
+    "questionId": "synonyms_ephemeral",
+    "type": "MULTIPLE_CHOICE",
+    "category": "SYNONYMS",
+    "questionText": "What is the synonym of 'Ephemeral'?",
+    "options": ["Lasting", "Short-lived", "Eternal", "Permanent"],
+    "correctAnswer": "Short-lived",
+    "explanation": "Ephemeral means lasting for a very short time."
+  },
+  {
+    "questionId": "synonyms_pliant",
+    "type": "MULTIPLE_CHOICE",
+    "category": "SYNONYMS",
+    "questionText": "What is the synonym of 'Pliant'?",
+    "options": ["Rigid", "Flexible", "Stubborn", "Hard"],
+    "correctAnswer": "Flexible",
+    "explanation": "Pliant means easily bent or flexible."
+  },
+  {
+    "questionId": "synonyms_quiescent",
+    "type": "MULTIPLE_CHOICE",
+    "category": "SYNONYMS",
+    "questionText": "What is the synonym of 'Quiescent'?",
+    "options": ["Active", "Dormant", "Lively", "Restless"],
+    "correctAnswer": "Dormant",
+    "explanation": "Quiescent means in a state or period of inactivity or dormancy."
+  },
+  {
+    "questionId": "synonyms_reticent",
+    "type": "MULTIPLE_CHOICE",
+    "category": "SYNONYMS",
+    "questionText": "What is the synonym of 'Reticent'?",
+    "options": ["Chatty", "Reserved", "Outgoing", "Loud"],
+    "correctAnswer": "Reserved",
+    "explanation": "Reticent means not revealing one's thoughts or feelings readily."
+  },
+  {
+    "questionId": "synonyms_sanguine",
+    "type": "MULTIPLE_CHOICE",
+    "category": "SYNONYMS",
+    "questionText": "What is the synonym of 'Sanguine'?",
+    "options": ["Pessimistic", "Optimistic", "Sad", "Angry"],
+    "correctAnswer": "Optimistic",
+    "explanation": "Sanguine means optimistic or positive, especially in an apparently bad or difficult situation."
   }
 ]

@@ -123,9 +123,9 @@ const masteryConfig = {
 
 export default function DashboardPage() {
   return (
-    <div className="flex min-h-screen flex-col gap-6 bg-transparent p-6">
+    <div className="flex min-h-screen flex-col gap-6 bg-transparent p-4 md:p-6">
       {/* Header Cards (Summary) */}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Total Questions</CardTitle>
@@ -168,14 +168,14 @@ export default function DashboardPage() {
         </Card>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-7">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-7">
         {/* Main Chart: Accuracy Over Time */}
-        <Card className="col-span-4">
+        <Card className="col-span-1 lg:col-span-4">
           <CardHeader>
             <CardTitle>Performance Trend</CardTitle>
             <CardDescription>Your daily accuracy over the last 7 days</CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="pl-0">
             <ChartContainer config={accuracyConfig} className="h-[300px] w-full">
               <LineChart
                 accessibilityLayer
@@ -206,13 +206,13 @@ export default function DashboardPage() {
         </Card>
 
         {/* Categories Bar Chart */}
-        <Card className="col-span-3">
+        <Card className="col-span-1 lg:col-span-3">
           <CardHeader>
             <CardTitle>Category Breakdown</CardTitle>
             <CardDescription>Average score by topic</CardDescription>
           </CardHeader>
           <CardContent>
-            <ChartContainer config={categoryConfig} className="h-[300px] w-full">
+            <ChartContainer config={categoryConfig} className="h-75 w-full">
               <BarChart
                 accessibilityLayer
                 data={categoryData}
@@ -240,7 +240,7 @@ export default function DashboardPage() {
         </Card>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         {/* Mastery Radial/Pie */}
         <Card className="flex flex-col">
           <CardHeader className="items-center pb-0">

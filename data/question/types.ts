@@ -18,27 +18,28 @@ export interface QuestionOption {
 }
 
 /* ---------- Base Question ---------- */
+/* ---------- Base Question ---------- */
 export interface QuestionBase {
   questionId: string;
   category: QuestionCategory;
-  questionType: QuestionType;
+  type: QuestionType | string; // Allow string for 'MULTIPLE_CHOICE'
   questionText: string;
-  difficulty: DifficultyLevel;
-  examTags: string[];
+  difficulty?: DifficultyLevel;
+  examTags?: string[];
   explanation?: string;
   createdAt?: string;
 }
 
 /* ---------- MCQ Question ---------- */
 export interface MCQQuestion extends QuestionBase {
-  questionType: 'mcq';
-  options: QuestionOption[];
-  correctAnswer: 'A' | 'B' | 'C' | 'D';
+  type: 'mcq' | 'MULTIPLE_CHOICE';
+  options: QuestionOption[] | string[]; // Allow string[]
+  correctAnswer: 'A' | 'B' | 'C' | 'D' | string;
 }
 
 /* ---------- Descriptive Question ---------- */
 export interface DescriptiveQuestion extends QuestionBase {
-  questionType: 'descriptive';
+  type: 'descriptive';
   modelAnswer: string;
 }
 
@@ -68,19 +69,23 @@ export interface QuestionResponse {
 export interface TestAttempt {
   attemptId: string;
   userId: string;
-  category: QuestionCategory;
-  testMode: TestMode;
-
-  totalQuestions: number;
-  correctAnswers: number;
+  category: string;
+  setNumber?: number; // Linked to a specific QuestionSet
   score: number;
-  maxScore: number;
-
-  usedForRanking: boolean;
+  totalQuestions: number;
   responses: QuestionResponse[];
-
   startedAt: string;
   completedAt: string;
+  isPracticeMode?: boolean; // True if retaking a previously completed set
+}
+
+export interface QuestionSet {
+  id: string; // e.g., 'synonyms_1'
+  category: QuestionCategory;
+  setNumber: number;
+  questions: Question[];
+  totalQuestions: number;
+  createdAt: string;
 }
 
 /* =====================================================
