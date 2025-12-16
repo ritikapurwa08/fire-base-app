@@ -1,8 +1,7 @@
 // Import the functions you need from the SDKs you need
-import { getApp, getApps, initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getFirestore } from "firebase/firestore";
-import { getAuth } from "firebase/auth";
+import { getApp, getApps, initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -16,20 +15,14 @@ const firebaseConfig = {
   storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
-let analytics;
-if (typeof window !== 'undefined') {
-    // Only initialize analytics on client side
-    // isSupported().then((yes) => yes && (analytics = getAnalytics(app)));
-    // Simplify for now as isSupported is async, usually fine to just call getAnalytics if env is supported or wrap it.
-    // For now we will just skip analytics export or keep it simple as user provided code didn't export it but imported it.
-    // User code: import { getAnalytics } ... but didn't use it.
-}
 
-export { app, db, auth };
+const googleProvider = new GoogleAuthProvider();
+
+export { app, db, auth, googleProvider };

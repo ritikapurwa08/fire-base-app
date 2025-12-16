@@ -1,0 +1,82 @@
+[
+  {
+    "questionId": "pro_0001",
+    "category": "proverb",
+    "questionType": "mcq",
+    "questionText": "Complete the proverb: 'Actions speak louder than ___.'",
+    "options": [
+      { "id": "A", "text": "Words" },
+      { "id": "B", "text": "Thoughts" },
+      { "id": "C", "text": "Promises" },
+      { "id": "D", "text": "Wisdom" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Actions speak louder than words' means what you do is more significant than what you say.",
+    "difficulty": "easy",
+    "examTags": ["Proverbs", "General"]
+  },
+  {
+    "questionId": "pro_0002",
+    "category": "proverb",
+    "questionType": "mcq",
+    "questionText": "What is the meaning of: 'Every cloud has a silver lining.'",
+    "options": [
+      { "id": "A", "text": "It will rain soon." },
+      { "id": "B", "text": "Clouds are beautiful." },
+      { "id": "C", "text": "Every difficult situation has a hopeful aspect." },
+      { "id": "D", "text": "Money falls from the sky." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This proverb means that you should never feel hopeless because difficult times always lead to better days.",
+    "difficulty": "medium",
+    "examTags": ["Proverbs", "Wisdom"]
+  },
+  {
+    "questionId": "pro_0003",
+    "category": "proverb",
+    "questionType": "mcq",
+    "questionText": "Complete the proverb: 'Too many cooks spoil the ___.'",
+    "options": [
+      { "id": "A", "text": "Food" },
+      { "id": "B", "text": "Broth" },
+      { "id": "C", "text": "Kitchen" },
+      { "id": "D", "text": "Dinner" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Too many cooks spoil the broth' means that if too many people are involved in a task or activity, it will not be done well.",
+    "difficulty": "easy",
+    "examTags": ["Proverbs"]
+  },
+  {
+    "questionId": "pro_0004",
+    "category": "proverb",
+    "questionType": "mcq",
+    "questionText": "What does 'Look before you leap' mean?",
+    "options": [
+      { "id": "A", "text": "Check the water depth." },
+      { "id": "B", "text": "Exercise regularly." },
+      { "id": "C", "text": "Think carefully before acting." },
+      { "id": "D", "text": "Jump high." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "It advises that you should calculate the possible consequences before taking a course of action.",
+    "difficulty": "easy",
+    "examTags": ["Proverbs", "Advice"]
+  },
+  {
+    "questionId": "pro_0005",
+    "category": "proverb",
+    "questionType": "mcq",
+    "questionText": "Complete the proverb: 'A stitch in time saves ___.'",
+    "options": [
+      { "id": "A", "text": "Nine" },
+      { "id": "B", "text": "Time" },
+      { "id": "C", "text": "Money" },
+      { "id": "D", "text": "Fabric" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'A stitch in time saves nine' means it is better to deal with a problem immediately because if you wait it may get worse.",
+    "difficulty": "hard",
+    "examTags": ["Proverbs"]
+  }
+]

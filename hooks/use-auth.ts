@@ -1,6 +1,6 @@
-import { useAuthContext } from "@/components/auth-provider";
+import { useAuthContext } from '@/components/auth-provider';
 
 export const useAuth = () => {
-  const { user, loading } = useAuthContext();
-  return { user, loading };
+  const { user, loading, refreshUser } = useAuthContext();
+  return { user, loading, refreshUser };
 };

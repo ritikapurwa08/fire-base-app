@@ -1,0 +1,82 @@
+[
+  {
+    "questionId": "syn_0001",
+    "category": "synonym",
+    "questionType": "mcq",
+    "questionText": "Choose the synonym of 'Candid'.",
+    "options": [
+      { "id": "A", "text": "Secretive" },
+      { "id": "B", "text": "Frank" },
+      { "id": "C", "text": "Shy" },
+      { "id": "D", "text": "Anxious" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Candid' means truthful and straightforward; 'Frank' is the closest synonym.",
+    "difficulty": "easy",
+    "examTags": ["Vocabulary", "SSC"]
+  },
+  {
+    "questionId": "syn_0002",
+    "category": "synonym",
+    "questionType": "mcq",
+    "questionText": "Select the word closest in meaning to 'Diligent'.",
+    "options": [
+      { "id": "A", "text": "Lazy" },
+      { "id": "B", "text": "Careless" },
+      { "id": "C", "text": "Hardworking" },
+      { "id": "D", "text": "Confident" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Diligent' means showing care and conscientiousness in one's work or duties; 'Hardworking' is the synonym.",
+    "difficulty": "medium",
+    "examTags": ["Vocabulary", "General"]
+  },
+  {
+    "questionId": "syn_0003",
+    "category": "synonym",
+    "questionType": "mcq",
+    "questionText": "What is the synonym of 'Ephemeral'?",
+    "options": [
+      { "id": "A", "text": "Lasting" },
+      { "id": "B", "text": "Short-lived" },
+      { "id": "C", "text": "Eternal" },
+      { "id": "D", "text": "Stable" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Ephemeral' means lasting for a very short time.",
+    "difficulty": "hard",
+    "examTags": ["Advanced Vocabulary"]
+  },
+  {
+    "questionId": "syn_0004",
+    "category": "synonym",
+    "questionType": "mcq",
+    "questionText": "Choose the synonym of 'Mitigate'.",
+    "options": [
+      { "id": "A", "text": "Worsen" },
+      { "id": "B", "text": "Alleviate" },
+      { "id": "C", "text": "Intensify" },
+      { "id": "D", "text": "Ignore" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "To 'mitigate' means to make less severe, serious, or painful; 'Alleviate' is the correct synonym.",
+    "difficulty": "medium",
+    "examTags": ["Government Exams"]
+  },
+  {
+    "questionId": "syn_0005",
+    "category": "synonym",
+    "questionType": "mcq",
+    "questionText": "Identify the synonym for 'Obstinate'.",
+    "options": [
+      { "id": "A", "text": "Flexible" },
+      { "id": "B", "text": "Stubborn" },
+      { "id": "C", "text": "Obedient" },
+      { "id": "D", "text": "Gentle" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Obstinate' means stubbornly refusing to change one's opinion or chosen course of action.",
+    "difficulty": "medium",
+    "examTags": ["Vocabulary"]
+  }
+]
