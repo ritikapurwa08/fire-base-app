@@ -124,17 +124,17 @@ export default function LandingPage() {
           </motion.div>
 
           {/* Hero 3D Element Placeholder */}
-          <motion.div style={{ scale }} className="relative h-[400px] w-full md:h-[600px]">
+          <motion.div style={{ scale }} className="relative h-100 w-full md:h-150">
             {/* This is where the NANO BANANA goes */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative h-full w-full">
                 {/* Placeholder for 3D Banana */}
-                <div className="absolute inset-0 animate-pulse rounded-full bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 blur-3xl" />
+                <div className="absolute inset-0 animate-pulse rounded-full bg-linear-to-tr from-cyan-500/20 to-purple-500/20 blur-3xl" />
                 <Image
-                  src="/api/placeholder/600/600"
+                  src="/nano-banana-images/home_page.png"
                   alt="Futuristic Nano Banana"
-                  width={600}
-                  height={600}
+                  width={1200}
+                  height={12000}
                   className="h-full w-full transform object-contain drop-shadow-[0_0_50px_rgba(34,211,238,0.5)] transition-transform duration-700 hover:scale-105"
                 />
               </div>

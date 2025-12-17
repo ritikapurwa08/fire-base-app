@@ -9,7 +9,6 @@ import {
   Shuffle,
   MessageSquare,
   Scale,
-  History,
   TrendingUp,
   Award,
   Target,
@@ -145,7 +144,7 @@ export default function DashboardPage() {
             <CardDescription>Your accuracy across different categories.</CardDescription>
           </CardHeader>
           <CardContent className="pl-2">
-            <div className="h-[300px] w-full">
+            <div className="h-75 w-full">
               <ResponsiveContainer width="100%" height="100%">
                 <RadarChart cx="50%" cy="50%" outerRadius="80%" data={radarData}>
                   <PolarGrid stroke="#e5e7eb" />
@@ -180,7 +179,7 @@ export default function DashboardPage() {
             <CardDescription>Completion status per category.</CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="h-[300px] w-full">
+            <div className="h-75 w-full">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={barData} layout="vertical" margin={{ left: 20 }}>
                   <XAxis type="number" hide />

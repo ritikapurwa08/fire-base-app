@@ -161,7 +161,7 @@ export default function TestRunnerPage({ params }: { params: Promise<{ category:
         </p>
         <Link
           href="/test"
-          className="bg-primary hover:bg-primary/90 mt-6 rounded-md px-6 py-2 text-white"
+          className="border-muted-foreground rounded-md border-2 px-5 py-2 transition-all duration-300 ease-in-out hover:bg-white hover:text-black"
         >
           Back to Dashboard
         </Link>
@@ -198,7 +198,7 @@ export default function TestRunnerPage({ params }: { params: Promise<{ category:
               return (
                 <div
                   key={q.id}
-                  className={`rounded-lg border p-4 ${isCorrect ? 'border-green-100 bg-green-50/50' : 'border-red-100 bg-red-50/50'}`}
+                  className={`rounded-lg border p-4 ${isCorrect ? 'border-green-100' : 'border-red-400'}`}
                 >
                   <div className="flex gap-3">
                     <div className="mt-1">
@@ -236,7 +236,7 @@ export default function TestRunnerPage({ params }: { params: Promise<{ category:
           <div className="flex justify-center pt-6">
             <Link
               href="/test"
-              className="bg-primary hover:bg-primary/90 rounded-md px-8 py-3 text-white"
+              className="border-muted-foreground rounded-md border-2 px-5 py-2 transition-all duration-300 ease-in-out hover:bg-white hover:text-black"
             >
               Return to Dashboard
             </Link>
@@ -319,7 +319,7 @@ export default function TestRunnerPage({ params }: { params: Promise<{ category:
 
         <div className="mt-8 flex justify-end">
           <Button
-          variant={"outline"}
+            variant={'outline'}
             onClick={handleNext}
             disabled={!answers[currentQ.id]}
             className="bg-primary hover:bg-primary/90 flex items-center rounded-lg px-6 py-3 font-semibold text-white transition-opacity disabled:opacity-50"

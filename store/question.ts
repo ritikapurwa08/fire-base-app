@@ -1342,4 +1342,1311 @@ export const questions: Question[] = [
     correctOptionId: 'opt_phv_20_b',
     answerExplanation: 'To look forward to means to await something eagerly.',
   },
+
+  {
+    "id": "syn_21",
+    "type": "syn",
+    "question": "Choose the synonym for: OBSOLETE",
+    "options": [
+      { "id": "opt_syn_21_a", "option": "Modern" },
+      { "id": "opt_syn_21_b", "option": "Outdated" },
+      { "id": "opt_syn_21_c", "option": "Useful" },
+      { "id": "opt_syn_21_d", "option": "Broken" }
+    ],
+    "correctOptionId": "opt_syn_21_b",
+    "answerExplanation": "Obsolete means no longer produced or used; out of date."
+  },
+  {
+    "id": "syn_22",
+    "type": "syn",
+    "question": "Choose the synonym for: AMBIGUOUS",
+    "options": [
+      { "id": "opt_syn_22_a", "option": "Clear" },
+      { "id": "opt_syn_22_b", "option": "Vague" },
+      { "id": "opt_syn_22_c", "option": "Bright" },
+      { "id": "opt_syn_22_d", "option": "Large" }
+    ],
+    "correctOptionId": "opt_syn_22_b",
+    "answerExplanation": "Ambiguous means open to more than one interpretation; having a double meaning; vague."
+  },
+  {
+    "id": "syn_23",
+    "type": "syn",
+    "question": "Choose the synonym for: COHERENT",
+    "options": [
+      { "id": "opt_syn_23_a", "option": "Logical" },
+      { "id": "opt_syn_23_b", "option": "Messy" },
+      { "id": "opt_syn_23_c", "option": "Crazy" },
+      { "id": "opt_syn_23_d", "option": "Loud" }
+    ],
+    "correctOptionId": "opt_syn_23_a",
+    "answerExplanation": "Coherent means logical and consistent."
+  },
+  {
+    "id": "syn_24",
+    "type": "syn",
+    "question": "Choose the synonym for: IMPARTIAL",
+    "options": [
+      { "id": "opt_syn_24_a", "option": "Biased" },
+      { "id": "opt_syn_24_b", "option": "Fair" },
+      { "id": "opt_syn_24_c", "option": "Part" },
+      { "id": "opt_syn_24_d", "option": "Active" }
+    ],
+    "correctOptionId": "opt_syn_24_b",
+    "answerExplanation": "Impartial means treating all rivals or disputants equally; fair and just."
+  },
+  {
+    "id": "syn_25",
+    "type": "syn",
+    "question": "Choose the synonym for: RESILIENT",
+    "options": [
+      { "id": "opt_syn_25_a", "option": "Fragile" },
+      { "id": "opt_syn_25_b", "option": "Weak" },
+      { "id": "opt_syn_25_c", "option": "Tough" },
+      { "id": "opt_syn_25_d", "option": "Soft" }
+    ],
+    "correctOptionId": "opt_syn_25_c",
+    "answerExplanation": "Resilient means able to withstand or recover quickly from difficult conditions; tough."
+  },
+  {
+    "id": "syn_26",
+    "type": "syn",
+    "question": "Choose the synonym for: VERIFY",
+    "options": [
+      { "id": "opt_syn_26_a", "option": "Confirm" },
+      { "id": "opt_syn_26_b", "option": "Deny" },
+      { "id": "opt_syn_26_c", "option": "Guess" },
+      { "id": "opt_syn_26_d", "option": "Lose" }
+    ],
+    "correctOptionId": "opt_syn_26_a",
+    "answerExplanation": "Verify means to make sure or demonstrate that something is true, accurate, or justified."
+  },
+  {
+    "id": "syn_27",
+    "type": "syn",
+    "question": "Choose the synonym for: LETHARGIC",
+    "options": [
+      { "id": "opt_syn_27_a", "option": "Energetic" },
+      { "id": "opt_syn_27_b", "option": "Sluggish" },
+      { "id": "opt_syn_27_c", "option": "Fast" },
+      { "id": "opt_syn_27_d", "option": "Smart" }
+    ],
+    "correctOptionId": "opt_syn_27_b",
+    "answerExplanation": "Lethargic means affected by lethargy; sluggish and apathetic."
+  },
+  {
+    "id": "syn_28",
+    "type": "syn",
+    "question": "Choose the synonym for: CONCISE",
+    "options": [
+      { "id": "opt_syn_28_a", "option": "Brief" },
+      { "id": "opt_syn_28_b", "option": "Long" },
+      { "id": "opt_syn_28_c", "option": "Detailed" },
+      { "id": "opt_syn_28_d", "option": "Wordy" }
+    ],
+    "correctOptionId": "opt_syn_28_a",
+    "answerExplanation": "Concise means giving a lot of information clearly and in a few words; brief."
+  },
+  {
+    "id": "syn_29",
+    "type": "syn",
+    "question": "Choose the synonym for: HAZARD",
+    "options": [
+      { "id": "opt_syn_29_a", "option": "Safety" },
+      { "id": "opt_syn_29_b", "option": "Danger" },
+      { "id": "opt_syn_29_c", "option": "Help" },
+      { "id": "opt_syn_29_d", "option": "Tool" }
+    ],
+    "correctOptionId": "opt_syn_29_b",
+    "answerExplanation": "A hazard is a danger or risk."
+  },
+  {
+    "id": "syn_30",
+    "type": "syn",
+    "question": "Choose the synonym for: DIVERSE",
+    "options": [
+      { "id": "opt_syn_30_a", "option": "Same" },
+      { "id": "opt_syn_30_b", "option": "Varied" },
+      { "id": "opt_syn_30_c", "option": "Similar" },
+      { "id": "opt_syn_30_d", "option": "Boring" }
+    ],
+    "correctOptionId": "opt_syn_30_b",
+    "answerExplanation": "Diverse means showing a great deal of variety; very different."
+  },
+  {
+    "id": "syn_31",
+    "type": "syn",
+    "question": "Choose the synonym for: PERCEIVE",
+    "options": [
+      { "id": "opt_syn_31_a", "option": "Ignore" },
+      { "id": "opt_syn_31_b", "option": "Notice" },
+      { "id": "opt_syn_31_c", "option": "Sleep" },
+      { "id": "opt_syn_31_d", "option": "Create" }
+    ],
+    "correctOptionId": "opt_syn_31_b",
+    "answerExplanation": "Perceive means to become aware or conscious of something; come to realize or understand."
+  },
+  {
+    "id": "syn_32",
+    "type": "syn",
+    "question": "Choose the synonym for: DETER",
+    "options": [
+      { "id": "opt_syn_32_a", "option": "Encourage" },
+      { "id": "opt_syn_32_b", "option": "Discourage" },
+      { "id": "opt_syn_32_c", "option": "Start" },
+      { "id": "opt_syn_32_d", "option": "Speed" }
+    ],
+    "correctOptionId": "opt_syn_32_b",
+    "answerExplanation": "Deter means to discourage someone from doing something."
+  },
+  {
+    "id": "syn_33",
+    "type": "syn",
+    "question": "Choose the synonym for: EMULATE",
+    "options": [
+      { "id": "opt_syn_33_a", "option": "Imitate" },
+      { "id": "opt_syn_33_b", "option": "Reject" },
+      { "id": "opt_syn_33_c", "option": "Create" },
+      { "id": "opt_syn_33_d", "option": "Dislike" }
+    ],
+    "correctOptionId": "opt_syn_33_a",
+    "answerExplanation": "Emulate means to match or surpass (a person or achievement), typically by imitation."
+  },
+  {
+    "id": "syn_34",
+    "type": "syn",
+    "question": "Choose the synonym for: INEVITABLE",
+    "options": [
+      { "id": "opt_syn_34_a", "option": "Unlikely" },
+      { "id": "opt_syn_34_b", "option": "Unavoidable" },
+      { "id": "opt_syn_34_c", "option": "Possible" },
+      { "id": "opt_syn_34_d", "option": "Optional" }
+    ],
+    "correctOptionId": "opt_syn_34_b",
+    "answerExplanation": "Inevitable means certain to happen; unavoidable."
+  },
+  {
+    "id": "syn_35",
+    "type": "syn",
+    "question": "Choose the synonym for: TEDIOUS",
+    "options": [
+      { "id": "opt_syn_35_a", "option": "Fun" },
+      { "id": "opt_syn_35_b", "option": "Boring" },
+      { "id": "opt_syn_35_c", "option": "Short" },
+      { "id": "opt_syn_35_d", "option": "Easy" }
+    ],
+    "correctOptionId": "opt_syn_35_b",
+    "answerExplanation": "Tedious means too long, slow, or dull; tiresome or monotonous."
+  },
+  {
+    "id": "syn_36",
+    "type": "syn",
+    "question": "Choose the synonym for: VERSATILE",
+    "options": [
+      { "id": "opt_syn_36_a", "option": "Rigid" },
+      { "id": "opt_syn_36_b", "option": "Adaptable" },
+      { "id": "opt_syn_36_c", "option": "Specific" },
+      { "id": "opt_syn_36_d", "option": "Fragile" }
+    ],
+    "correctOptionId": "opt_syn_36_b",
+    "answerExplanation": "Versatile means able to adapt or be adapted to many different functions or activities."
+  },
+  {
+    "id": "syn_37",
+    "type": "syn",
+    "question": "Choose the synonym for: ROBUST",
+    "options": [
+      { "id": "opt_syn_37_a", "option": "Weak" },
+      { "id": "opt_syn_37_b", "option": "Strong" },
+      { "id": "opt_syn_37_c", "option": "Small" },
+      { "id": "opt_syn_37_d", "option": "Thin" }
+    ],
+    "correctOptionId": "opt_syn_37_b",
+    "answerExplanation": "Robust means strong and healthy; vigorous."
+  },
+  {
+    "id": "syn_38",
+    "type": "syn",
+    "question": "Choose the synonym for: CONCUR",
+    "options": [
+      { "id": "opt_syn_38_a", "option": "Argue" },
+      { "id": "opt_syn_38_b", "option": "Agree" },
+      { "id": "opt_syn_38_c", "option": "Run" },
+      { "id": "opt_syn_38_d", "option": "Stop" }
+    ],
+    "correctOptionId": "opt_syn_38_b",
+    "answerExplanation": "Concur means to be of the same opinion; agree."
+  },
+  {
+    "id": "syn_39",
+    "type": "syn",
+    "question": "Choose the synonym for: PARADOX",
+    "options": [
+      { "id": "opt_syn_39_a", "option": "Truth" },
+      { "id": "opt_syn_39_b", "option": "Contradiction" },
+      { "id": "opt_syn_39_c", "option": "Line" },
+      { "id": "opt_syn_39_d", "option": "Story" }
+    ],
+    "correctOptionId": "opt_syn_39_b",
+    "answerExplanation": "A paradox is a seemingly absurd or self-contradictory statement or proposition."
+  },
+  {
+    "id": "syn_40",
+    "type": "syn",
+    "question": "Choose the synonym for: MAGNANIMOUS",
+    "options": [
+      { "id": "opt_syn_40_a", "option": "Selfish" },
+      { "id": "opt_syn_40_b", "option": "Generous" },
+      { "id": "opt_syn_40_c", "option": "Mean" },
+      { "id": "opt_syn_40_d", "option": "Small" }
+    ],
+    "correctOptionId": "opt_syn_40_b",
+    "answerExplanation": "Magnanimous means generous or forgiving, especially toward a rival or less powerful person."
+  },
+  {
+    "id": "ant_21",
+    "type": "ant",
+    "question": "Choose the antonym for: FREQUENT",
+    "options": [
+      { "id": "opt_ant_21_a", "option": "Common" },
+      { "id": "opt_ant_21_b", "option": "Rare" },
+      { "id": "opt_ant_21_c", "option": "Often" },
+      { "id": "opt_ant_21_d", "option": "Always" }
+    ],
+    "correctOptionId": "opt_ant_21_b",
+    "answerExplanation": "Frequent means occurring often. Rare means not occurring very often."
+  },
+  {
+    "id": "ant_22",
+    "type": "ant",
+    "question": "Choose the antonym for: GENEROUS",
+    "options": [
+      { "id": "opt_ant_22_a", "option": "Kind" },
+      { "id": "opt_ant_22_b", "option": "Stingy" },
+      { "id": "opt_ant_22_c", "option": "Big" },
+      { "id": "opt_ant_22_d", "option": "Open" }
+    ],
+    "correctOptionId": "opt_ant_22_b",
+    "answerExplanation": "Generous means ready to give more of something. Stingy means unwilling to give."
+  },
+  {
+    "id": "ant_23",
+    "type": "ant",
+    "question": "Choose the antonym for: EXPLICIT",
+    "options": [
+      { "id": "opt_ant_23_a", "option": "Clear" },
+      { "id": "opt_ant_23_b", "option": "Implicit" },
+      { "id": "opt_ant_23_c", "option": "Loud" },
+      { "id": "opt_ant_23_d", "option": "Direct" }
+    ],
+    "correctOptionId": "opt_ant_23_b",
+    "answerExplanation": "Explicit means stated clearly and in detail. Implicit means implied though not plainly expressed."
+  },
+  {
+    "id": "ant_24",
+    "type": "ant",
+    "question": "Choose the antonym for: UNITY",
+    "options": [
+      { "id": "opt_ant_24_a", "option": "Union" },
+      { "id": "opt_ant_24_b", "option": "Division" },
+      { "id": "opt_ant_24_c", "option": "Peace" },
+      { "id": "opt_ant_24_d", "option": "Whole" }
+    ],
+    "correctOptionId": "opt_ant_24_b",
+    "answerExplanation": "Unity means the state of being united or joined as a whole. Division means the action of separating."
+  },
+  {
+    "id": "ant_25",
+    "type": "ant",
+    "question": "Choose the antonym for: URBAN",
+    "options": [
+      { "id": "opt_ant_25_a", "option": "City" },
+      { "id": "opt_ant_25_b", "option": "Rural" },
+      { "id": "opt_ant_25_c", "option": "Modern" },
+      { "id": "opt_ant_25_d", "option": "Busy" }
+    ],
+    "correctOptionId": "opt_ant_25_b",
+    "answerExplanation": "Urban relates to a town or city. Rural relates to the countryside."
+  },
+  {
+    "id": "ant_26",
+    "type": "ant",
+    "question": "Choose the antonym for: VACANT",
+    "options": [
+      { "id": "opt_ant_26_a", "option": "Empty" },
+      { "id": "opt_ant_26_b", "option": "Occupied" },
+      { "id": "opt_ant_26_c", "option": "Open" },
+      { "id": "opt_ant_26_d", "option": "Clear" }
+    ],
+    "correctOptionId": "opt_ant_26_b",
+    "answerExplanation": "Vacant means empty. Occupied means being used or filled."
+  },
+  {
+    "id": "ant_27",
+    "type": "ant",
+    "question": "Choose the antonym for: WILD",
+    "options": [
+      { "id": "opt_ant_27_a", "option": "Crazy" },
+      { "id": "opt_ant_27_b", "option": "Tame" },
+      { "id": "opt_ant_27_c", "option": "Free" },
+      { "id": "opt_ant_27_d", "option": "Natural" }
+    ],
+    "correctOptionId": "opt_ant_27_b",
+    "answerExplanation": "Wild refers to animals or plants growing in a natural state. Tame means domesticated."
+  },
+  {
+    "id": "ant_28",
+    "type": "ant",
+    "question": "Choose the antonym for: KNOWLEDGE",
+    "options": [
+      { "id": "opt_ant_28_a", "option": "Wisdom" },
+      { "id": "opt_ant_28_b", "option": "Ignorance" },
+      { "id": "opt_ant_28_c", "option": "Power" },
+      { "id": "opt_ant_28_d", "option": "Fact" }
+    ],
+    "correctOptionId": "opt_ant_28_b",
+    "answerExplanation": "Knowledge is facts, information, and skills acquired. Ignorance is lack of knowledge or information."
+  },
+  {
+    "id": "ant_29",
+    "type": "ant",
+    "question": "Choose the antonym for: LENIENT",
+    "options": [
+      { "id": "opt_ant_29_a", "option": "Soft" },
+      { "id": "opt_ant_29_b", "option": "Strict" },
+      { "id": "opt_ant_29_c", "option": "Easy" },
+      { "id": "opt_ant_29_d", "option": "Kind" }
+    ],
+    "correctOptionId": "opt_ant_29_b",
+    "answerExplanation": "Lenient means permissible or merciful. Strict means demanding that rules are obeyed."
+  },
+  {
+    "id": "ant_30",
+    "type": "ant",
+    "question": "Choose the antonym for: MERGE",
+    "options": [
+      { "id": "opt_ant_30_a", "option": "Join" },
+      { "id": "opt_ant_30_b", "option": "Separate" },
+      { "id": "opt_ant_30_c", "option": "Mix" },
+      { "id": "opt_ant_30_d", "option": "Blend" }
+    ],
+    "correctOptionId": "opt_ant_30_b",
+    "answerExplanation": "Merge means to combine to form a single entity. Separate means to cause to move or be apart."
+  },
+  {
+    "id": "ant_31",
+    "type": "ant",
+    "question": "Choose the antonym for: NARROW",
+    "options": [
+      { "id": "opt_ant_31_a", "option": "Thin" },
+      { "id": "opt_ant_31_b", "option": "Wide" },
+      { "id": "opt_ant_31_c", "option": "Small" },
+      { "id": "opt_ant_31_d", "option": "Long" }
+    ],
+    "correctOptionId": "opt_ant_31_b",
+    "answerExplanation": "Narrow means of small width. Wide means of great or more than average width."
+  },
+  {
+    "id": "ant_32",
+    "type": "ant",
+    "question": "Choose the antonym for: POLITE",
+    "options": [
+      { "id": "opt_ant_32_a", "option": "Nice" },
+      { "id": "opt_ant_32_b", "option": "Rude" },
+      { "id": "opt_ant_32_c", "option": "Kind" },
+      { "id": "opt_ant_32_d", "option": "Good" }
+    ],
+    "correctOptionId": "opt_ant_32_b",
+    "answerExplanation": "Polite means having or showing behavior that is respectful. Rude is offensively impolite."
+  },
+  {
+    "id": "ant_33",
+    "type": "ant",
+    "question": "Choose the antonym for: RAPID",
+    "options": [
+      { "id": "opt_ant_33_a", "option": "Fast" },
+      { "id": "opt_ant_33_b", "option": "Slow" },
+      { "id": "opt_ant_33_c", "option": "Quick" },
+      { "id": "opt_ant_33_d", "option": "Swift" }
+    ],
+    "correctOptionId": "opt_ant_33_b",
+    "answerExplanation": "Rapid means happening in a short time or at a fast pace. Slow is the opposite."
+  },
+  {
+    "id": "ant_34",
+    "type": "ant",
+    "question": "Choose the antonym for: SAFE",
+    "options": [
+      { "id": "opt_ant_34_a", "option": "Secure" },
+      { "id": "opt_ant_34_b", "option": "Dangerous" },
+      { "id": "opt_ant_34_c", "option": "Protected" },
+      { "id": "opt_ant_34_d", "option": "Sure" }
+    ],
+    "correctOptionId": "opt_ant_34_b",
+    "answerExplanation": "Safe means protected from or not exposed to danger. Dangerous means able or likely to cause harm."
+  },
+  {
+    "id": "ant_35",
+    "type": "ant",
+    "question": "Choose the antonym for: TRAGEDY",
+    "options": [
+      { "id": "opt_ant_35_a", "option": "Sadness" },
+      { "id": "opt_ant_35_b", "option": "Comedy" },
+      { "id": "opt_ant_35_c", "option": "Drama" },
+      { "id": "opt_ant_35_d", "option": "Disaster" }
+    ],
+    "correctOptionId": "opt_ant_35_b",
+    "answerExplanation": "Tragedy is an event causing great suffering. In literature, comedy is the opposite genre."
+  },
+  {
+    "id": "ant_36",
+    "type": "ant",
+    "question": "Choose the antonym for: UNIFORM",
+    "options": [
+      { "id": "opt_ant_36_a", "option": "Same" },
+      { "id": "opt_ant_36_b", "option": "Varied" },
+      { "id": "opt_ant_36_c", "option": "Even" },
+      { "id": "opt_ant_36_d", "option": "Flat" }
+    ],
+    "correctOptionId": "opt_ant_36_b",
+    "answerExplanation": "Uniform means remaining the same in all cases. Varied means incorporating a number of different types."
+  },
+  {
+    "id": "ant_37",
+    "type": "ant",
+    "question": "Choose the antonym for: VITAL",
+    "options": [
+      { "id": "opt_ant_37_a", "option": "Important" },
+      { "id": "opt_ant_37_b", "option": "Trivial" },
+      { "id": "opt_ant_37_c", "option": "Alive" },
+      { "id": "opt_ant_37_d", "option": "Essential" }
+    ],
+    "correctOptionId": "opt_ant_37_b",
+    "answerExplanation": "Vital means absolutely necessary. Trivial means of little value or importance."
+  },
+  {
+    "id": "ant_38",
+    "type": "ant",
+    "question": "Choose the antonym for: WISDOM",
+    "options": [
+      { "id": "opt_ant_38_a", "option": "Smarts" },
+      { "id": "opt_ant_38_b", "option": "Folly" },
+      { "id": "opt_ant_38_c", "option": "Brain" },
+      { "id": "opt_ant_38_d", "option": "Sense" }
+    ],
+    "correctOptionId": "opt_ant_38_b",
+    "answerExplanation": "Wisdom is the quality of having experience, knowledge, and good judgment. Folly is lack of good sense; foolishness."
+  },
+  {
+    "id": "ant_39",
+    "type": "ant",
+    "question": "Choose the antonym for: YOUTH",
+    "options": [
+      { "id": "opt_ant_39_a", "option": "Child" },
+      { "id": "opt_ant_39_b", "option": "Age" },
+      { "id": "opt_ant_39_c", "option": "Young" },
+      { "id": "opt_ant_39_d", "option": "Boy" }
+    ],
+    "correctOptionId": "opt_ant_39_b",
+    "answerExplanation": "Youth is the period of being young. Age (or old age) is the later part of life."
+  },
+  {
+    "id": "ant_40",
+    "type": "ant",
+    "question": "Choose the antonym for: ZEAL",
+    "options": [
+      { "id": "opt_ant_40_a", "option": "Passion" },
+      { "id": "opt_ant_40_b", "option": "Apathy" },
+      { "id": "opt_ant_40_c", "option": "Fire" },
+      { "id": "opt_ant_40_d", "option": "Energy" }
+    ],
+    "correctOptionId": "opt_ant_40_b",
+    "answerExplanation": "Zeal is great energy or enthusiasm. Apathy is lack of interest, enthusiasm, or concern."
+  },
+  {
+    "id": "idi_21",
+    "type": "idi",
+    "question": "What is the meaning of: 'Barking up the wrong tree'?",
+    "options": [
+      { "id": "opt_idi_21_a", "option": "Yelling at a dog" },
+      { "id": "opt_idi_21_b", "option": "Accusing the wrong person" },
+      { "id": "opt_idi_21_c", "option": "Climbing a tree" },
+      { "id": "opt_idi_21_d", "option": "Being lost in a forest" }
+    ],
+    "correctOptionId": "opt_idi_21_b",
+    "answerExplanation": "To pursue a mistaken or misguided line of thought or course of action."
+  },
+  {
+    "id": "idi_22",
+    "type": "idi",
+    "question": "What is the meaning of: 'Beat around the bush'?",
+    "options": [
+      { "id": "opt_idi_22_a", "option": "To hit a plant" },
+      { "id": "opt_idi_22_b", "option": "To avoid speaking directly about a topic" },
+      { "id": "opt_idi_22_c", "option": "To garden" },
+      { "id": "opt_idi_22_d", "option": "To be violent" }
+    ],
+    "correctOptionId": "opt_idi_22_b",
+    "answerExplanation": "Discuss a matter without coming to the point."
+  },
+  {
+    "id": "idi_23",
+    "type": "idi",
+    "question": "What is the meaning of: 'A blessing in disguise'?",
+    "options": [
+      { "id": "opt_idi_23_a", "option": "A hidden gift" },
+      { "id": "opt_idi_23_b", "option": "Something bad that turns out to be good" },
+      { "id": "opt_idi_23_c", "option": "A religious ceremony" },
+      { "id": "opt_idi_23_d", "option": "Wearing a mask" }
+    ],
+    "correctOptionId": "opt_idi_23_b",
+    "answerExplanation": "An apparent misfortune that eventually has good results."
+  },
+  {
+    "id": "idi_24",
+    "type": "idi",
+    "question": "What is the meaning of: 'Bite off more than you can chew'?",
+    "options": [
+      { "id": "opt_idi_24_a", "option": "Eating too much food" },
+      { "id": "opt_idi_24_b", "option": "Taking on a task that is way too big" },
+      { "id": "opt_idi_24_c", "option": "Choking" },
+      { "id": "opt_idi_24_d", "option": "Talking while eating" }
+    ],
+    "correctOptionId": "opt_idi_24_b",
+    "answerExplanation": "To try to do something that is too difficult for you."
+  },
+  {
+    "id": "idi_25",
+    "type": "idi",
+    "question": "What is the meaning of: 'Caught red-handed'?",
+    "options": [
+      { "id": "opt_idi_25_a", "option": "Having sunburned hands" },
+      { "id": "opt_idi_25_b", "option": "To be caught doing something wrong" },
+      { "id": "opt_idi_25_c", "option": "Painting with red" },
+      { "id": "opt_idi_25_d", "option": "Holding a red object" }
+    ],
+    "correctOptionId": "opt_idi_25_b",
+    "answerExplanation": "To catch someone in the act of committing a crime or doing something wrong."
+  },
+  {
+    "id": "idi_26",
+    "type": "idi",
+    "question": "What is the meaning of: 'Don't count your chickens before they hatch'?",
+    "options": [
+      { "id": "opt_idi_26_a", "option": "Don't be a farmer" },
+      { "id": "opt_idi_26_b", "option": "Don't make plans based on future events that might not happen" },
+      { "id": "opt_idi_26_c", "option": "Eggs are fragile" },
+      { "id": "opt_idi_26_d", "option": "Count carefully" }
+    ],
+    "correctOptionId": "opt_idi_26_b",
+    "answerExplanation": "Don't rely on something good happening before it actually happens."
+  },
+  {
+    "id": "idi_27",
+    "type": "idi",
+    "question": "What is the meaning of: 'Every cloud has a silver lining'?",
+    "options": [
+      { "id": "opt_idi_27_a", "option": "It is going to rain" },
+      { "id": "opt_idi_27_b", "option": "Every bad situation has a positive aspect" },
+      { "id": "opt_idi_27_c", "option": "Clouds are made of silver" },
+      { "id": "opt_idi_27_d", "option": "Look at the sky" }
+    ],
+    "correctOptionId": "opt_idi_27_b",
+    "answerExplanation": "Be optimistic, even difficult times will lead to better days."
+  },
+  {
+    "id": "idi_28",
+    "type": "idi",
+    "question": "What is the meaning of: 'Hit the nail on the head'?",
+    "options": [
+      { "id": "opt_idi_28_a", "option": "To hammer something" },
+      { "id": "opt_idi_28_b", "option": "To describe exactly what is causing a situation or problem" },
+      { "id": "opt_idi_28_c", "option": "To hurt your finger" },
+      { "id": "opt_idi_28_d", "option": "To build a house" }
+    ],
+    "correctOptionId": "opt_idi_28_b",
+    "answerExplanation": "To do or say something that is exactly right."
+  },
+  {
+    "id": "idi_29",
+    "type": "idi",
+    "question": "What is the meaning of: 'In the heat of the moment'?",
+    "options": [
+      { "id": "opt_idi_29_a", "option": "When it is very hot" },
+      { "id": "opt_idi_29_b", "option": "Overwhelmed by what is happening in the moment" },
+      { "id": "opt_idi_29_c", "option": "Cooking dinner" },
+      { "id": "opt_idi_29_d", "option": "During summer" }
+    ],
+    "correctOptionId": "opt_idi_29_b",
+    "answerExplanation": "Saying or doing something without thinking because you are angry or excited."
+  },
+  {
+    "id": "idi_30",
+    "type": "idi",
+    "question": "What is the meaning of: 'Kill two birds with one stone'?",
+    "options": [
+      { "id": "opt_idi_30_a", "option": "To go hunting" },
+      { "id": "opt_idi_30_b", "option": "To solve two problems with one action" },
+      { "id": "opt_idi_30_c", "option": "To be cruel to animals" },
+      { "id": "opt_idi_30_d", "option": "To throw rocks" }
+    ],
+    "correctOptionId": "opt_idi_30_b",
+    "answerExplanation": "To achieve two aims at once."
+  },
+  {
+    "id": "idi_31",
+    "type": "idi",
+    "question": "What is the meaning of: 'Let sleeping dogs lie'?",
+    "options": [
+      { "id": "opt_idi_31_a", "option": "Don't wake up pets" },
+      { "id": "opt_idi_31_b", "option": "Avoid interfering in a situation that is currently causing no problems" },
+      { "id": "opt_idi_31_c", "option": "Dogs are lazy" },
+      { "id": "opt_idi_31_d", "option": "Tell the truth" }
+    ],
+    "correctOptionId": "opt_idi_31_b",
+    "answerExplanation": "Do not instigate trouble; leave a situation alone."
+  },
+  {
+    "id": "idi_32",
+    "type": "idi",
+    "question": "What is the meaning of: 'Make a long story short'?",
+    "options": [
+      { "id": "opt_idi_32_a", "option": "To write a book" },
+      { "id": "opt_idi_32_b", "option": "To get to the point without details" },
+      { "id": "opt_idi_32_c", "option": "To speak slowly" },
+      { "id": "opt_idi_32_d", "option": "To lie" }
+    ],
+    "correctOptionId": "opt_idi_32_b",
+    "answerExplanation": "To relate a complex story or series of events in a few words."
+  },
+  {
+    "id": "idi_33",
+    "type": "idi",
+    "question": "What is the meaning of: 'Method to my madness'?",
+    "options": [
+      { "id": "opt_idi_33_a", "option": "Being crazy" },
+      { "id": "opt_idi_33_b", "option": "A specific purpose in what seems to be crazy behavior" },
+      { "id": "opt_idi_33_c", "option": "Acting badly" },
+      { "id": "opt_idi_33_d", "option": "Scientific experiment" }
+    ],
+    "correctOptionId": "opt_idi_33_b",
+    "answerExplanation": "There is a reason for someone's strange behavior."
+  },
+  {
+    "id": "idi_34",
+    "type": "idi",
+    "question": "What is the meaning of: 'Not my cup of tea'?",
+    "options": [
+      { "id": "opt_idi_34_a", "option": "I don't like tea" },
+      { "id": "opt_idi_34_b", "option": "It is not the type of thing I like" },
+      { "id": "opt_idi_34_c", "option": "It is not mine" },
+      { "id": "opt_idi_34_d", "option": "I am thirsty" }
+    ],
+    "correctOptionId": "opt_idi_34_b",
+    "answerExplanation": "Something that is not to your taste or interest."
+  },
+  {
+    "id": "idi_35",
+    "type": "idi",
+    "question": "What is the meaning of: 'Off the hook'?",
+    "options": [
+      { "id": "opt_idi_35_a", "option": "Fishing" },
+      { "id": "opt_idi_35_b", "option": "No longer in trouble or responsible" },
+      { "id": "opt_idi_35_c", "option": "Phone is disconnected" },
+      { "id": "opt_idi_35_d", "option": "Broken" }
+    ],
+    "correctOptionId": "opt_idi_35_b",
+    "answerExplanation": "Freed from an obligation or difficult situation."
+  },
+  {
+    "id": "idi_36",
+    "type": "idi",
+    "question": "What is the meaning of: 'Play it by ear'?",
+    "options": [
+      { "id": "opt_idi_36_a", "option": "To listen to music" },
+      { "id": "opt_idi_36_b", "option": "To improvise as you go along" },
+      { "id": "opt_idi_36_c", "option": "To have good hearing" },
+      { "id": "opt_idi_36_d", "option": "To play an instrument" }
+    ],
+    "correctOptionId": "opt_idi_36_b",
+    "answerExplanation": "To decide how to deal with a situation as it develops, rather than having a plan."
+  },
+  {
+    "id": "idi_37",
+    "type": "idi",
+    "question": "What is the meaning of: 'See eye to eye'?",
+    "options": [
+      { "id": "opt_idi_37_a", "option": "To stare contest" },
+      { "id": "opt_idi_37_b", "option": "To agree fully" },
+      { "id": "opt_idi_37_c", "option": "To be tall" },
+      { "id": "opt_idi_37_d", "option": "To wear glasses" }
+    ],
+    "correctOptionId": "opt_idi_37_b",
+    "answerExplanation": "To have the same opinion; to be in full agreement."
+  },
+  {
+    "id": "idi_38",
+    "type": "idi",
+    "question": "What is the meaning of: 'Steal someone's thunder'?",
+    "options": [
+      { "id": "opt_idi_38_a", "option": "To steal weather" },
+      { "id": "opt_idi_38_b", "option": "To take credit for someone else's idea or attract attention away from them" },
+      { "id": "opt_idi_38_c", "option": "To make a loud noise" },
+      { "id": "opt_idi_38_d", "option": "To commit a crime" }
+    ],
+    "correctOptionId": "opt_idi_38_b",
+    "answerExplanation": "To prevent someone from winning praise or attention by doing it first or better."
+  },
+  {
+    "id": "idi_39",
+    "type": "idi",
+    "question": "What is the meaning of: 'Take with a grain of salt'?",
+    "options": [
+      { "id": "opt_idi_39_a", "option": "To cook with salt" },
+      { "id": "opt_idi_39_b", "option": "To not take something too seriously or literally" },
+      { "id": "opt_idi_39_c", "option": "To be thirsty" },
+      { "id": "opt_idi_39_d", "option": "To eat dinner" }
+    ],
+    "correctOptionId": "opt_idi_39_b",
+    "answerExplanation": "To regard something as exaggerated; believe only part of something."
+  },
+  {
+    "id": "idi_40",
+    "type": "idi",
+    "question": "What is the meaning of: 'Taste of your own medicine'?",
+    "options": [
+      { "id": "opt_idi_40_a", "option": "Being sick" },
+      { "id": "opt_idi_40_b", "option": "Being treated the same unpleasant way you have treated others" },
+      { "id": "opt_idi_40_c", "option": "Eating healthy" },
+      { "id": "opt_idi_40_d", "option": "Becoming a doctor" }
+    ],
+    "correctOptionId": "opt_idi_40_b",
+    "answerExplanation": "Mistreatment of someone in the same way they have mistreated others."
+  },
+  {
+    "id": "gra_21",
+    "type": "gra",
+    "question": "Choose the correct verb form: 'She ___ to the market yesterday.'",
+    "options": [
+      { "id": "opt_gra_21_a", "option": "go" },
+      { "id": "opt_gra_21_b", "option": "gone" },
+      { "id": "opt_gra_21_c", "option": "went" },
+      { "id": "opt_gra_21_d", "option": "goes" }
+    ],
+    "correctOptionId": "opt_gra_21_c",
+    "answerExplanation": "The sentence is in the simple past tense (yesterday), so 'went' is correct."
+  },
+  {
+    "id": "gra_22",
+    "type": "gra",
+    "question": "Fill in the blank: 'I am used to ___ on the left.'",
+    "options": [
+      { "id": "opt_gra_22_a", "option": "drive" },
+      { "id": "opt_gra_22_b", "option": "driving" },
+      { "id": "opt_gra_22_c", "option": "drove" },
+      { "id": "opt_gra_22_d", "option": "driven" }
+    ],
+    "correctOptionId": "opt_gra_22_b",
+    "answerExplanation": "'Be used to' is followed by a gerund (-ing form)."
+  },
+  {
+    "id": "gra_23",
+    "type": "gra",
+    "question": "Choose the correct word: 'He speaks English very ___.'",
+    "options": [
+      { "id": "opt_gra_23_a", "option": "good" },
+      { "id": "opt_gra_23_b", "option": "well" },
+      { "id": "opt_gra_23_c", "option": "nice" },
+      { "id": "opt_gra_23_d", "option": "bad" }
+    ],
+    "correctOptionId": "opt_gra_23_b",
+    "answerExplanation": "'Well' is an adverb describing how he speaks. 'Good' is an adjective."
+  },
+  {
+    "id": "gra_24",
+    "type": "gra",
+    "question": "Select the correct pronoun: 'This is the boy ___ won the prize.'",
+    "options": [
+      { "id": "opt_gra_24_a", "option": "who" },
+      { "id": "opt_gra_24_b", "option": "whom" },
+      { "id": "opt_gra_24_c", "option": "which" },
+      { "id": "opt_gra_24_d", "option": "whose" }
+    ],
+    "correctOptionId": "opt_gra_24_a",
+    "answerExplanation": "'Who' is the subject of the clause 'won the prize'."
+  },
+  {
+    "id": "gra_25",
+    "type": "gra",
+    "question": "Choose the correct preposition: 'Don't talk ___ the movie.'",
+    "options": [
+      { "id": "opt_gra_25_a", "option": "while" },
+      { "id": "opt_gra_25_b", "option": "during" },
+      { "id": "opt_gra_25_c", "option": "for" },
+      { "id": "opt_gra_25_d", "option": "since" }
+    ],
+    "correctOptionId": "opt_gra_25_b",
+    "answerExplanation": "'During' is used before a noun (the movie). 'While' is used before a clause."
+  },
+  {
+    "id": "gra_26",
+    "type": "gra",
+    "question": "Select the correct verb: 'The news ___ shocking.'",
+    "options": [
+      { "id": "opt_gra_26_a", "option": "are" },
+      { "id": "opt_gra_26_b", "option": "were" },
+      { "id": "opt_gra_26_c", "option": "is" },
+      { "id": "opt_gra_26_d", "option": "have" }
+    ],
+    "correctOptionId": "opt_gra_26_c",
+    "answerExplanation": "'News' is an uncountable noun and takes a singular verb."
+  },
+  {
+    "id": "gra_27",
+    "type": "gra",
+    "question": "Select the correct verb: 'Neither John nor his friends ___ going.'",
+    "options": [
+      { "id": "opt_gra_27_a", "option": "is" },
+      { "id": "opt_gra_27_b", "option": "are" },
+      { "id": "opt_gra_27_c", "option": "was" },
+      { "id": "opt_gra_27_d", "option": "has" }
+    ],
+    "correctOptionId": "opt_gra_27_b",
+    "answerExplanation": "With 'neither/nor', the verb agrees with the subject closer to it ('friends' is plural)."
+  },
+  {
+    "id": "gra_28",
+    "type": "gra",
+    "question": "Choose the correct preposition: 'She is married ___ a doctor.'",
+    "options": [
+      { "id": "opt_gra_28_a", "option": "with" },
+      { "id": "opt_gra_28_b", "option": "to" },
+      { "id": "opt_gra_28_c", "option": "by" },
+      { "id": "opt_gra_28_d", "option": "for" }
+    ],
+    "correctOptionId": "opt_gra_28_b",
+    "answerExplanation": "The correct phrase is 'married to', not 'married with'."
+  },
+  {
+    "id": "gra_29",
+    "type": "gra",
+    "question": "Choose the correct form: 'I wish I ___ the answer.'",
+    "options": [
+      { "id": "opt_gra_29_a", "option": "know" },
+      { "id": "opt_gra_29_b", "option": "knew" },
+      { "id": "opt_gra_29_c", "option": "known" },
+      { "id": "opt_gra_29_d", "option": "knows" }
+    ],
+    "correctOptionId": "opt_gra_29_b",
+    "answerExplanation": "When expressing a wish about the present, use the past simple tense."
+  },
+  {
+    "id": "gra_30",
+    "type": "gra",
+    "question": "Identify the error: 'Despite of the rain, we went out.'",
+    "options": [
+      { "id": "opt_gra_30_a", "option": "Despite" },
+      { "id": "opt_gra_30_b", "option": "of" },
+      { "id": "opt_gra_30_c", "option": "rain" },
+      { "id": "opt_gra_30_d", "option": "went" }
+    ],
+    "correctOptionId": "opt_gra_30_b",
+    "answerExplanation": "You say 'Despite the rain' or 'In spite of the rain'. 'Despite of' is incorrect."
+  },
+  {
+    "id": "gra_31",
+    "type": "gra",
+    "question": "Choose the correct form: 'Did you ___ to play tennis?'",
+    "options": [
+      { "id": "opt_gra_31_a", "option": "used" },
+      { "id": "opt_gra_31_b", "option": "use" },
+      { "id": "opt_gra_31_c", "option": "uses" },
+      { "id": "opt_gra_31_d", "option": "using" }
+    ],
+    "correctOptionId": "opt_gra_31_b",
+    "answerExplanation": "With the auxiliary 'did', use the base form 'use'."
+  },
+  {
+    "id": "gra_32",
+    "type": "gra",
+    "question": "Fill in the blank: 'The faster you drive, ___ dangerous it is.'",
+    "options": [
+      { "id": "opt_gra_32_a", "option": "more" },
+      { "id": "opt_gra_32_b", "option": "the more" },
+      { "id": "opt_gra_32_c", "option": "most" },
+      { "id": "opt_gra_32_d", "option": "the most" }
+    ],
+    "correctOptionId": "opt_gra_32_b",
+    "answerExplanation": "Parallel comparative structure: 'The [comparative]..., the [comparative]...'."
+  },
+  {
+    "id": "gra_33",
+    "type": "gra",
+    "question": "Choose the correct preposition: 'She accused him ___ stealing.'",
+    "options": [
+      { "id": "opt_gra_33_a", "option": "for" },
+      { "id": "opt_gra_33_b", "option": "of" },
+      { "id": "opt_gra_33_c", "option": "about" },
+      { "id": "opt_gra_33_d", "option": "on" }
+    ],
+    "correctOptionId": "opt_gra_33_b",
+    "answerExplanation": "The correct phrase is 'accuse of'."
+  },
+  {
+    "id": "gra_34",
+    "type": "gra",
+    "question": "Choose the correct word: 'Hardly had I arrived ___ it started raining.'",
+    "options": [
+      { "id": "opt_gra_34_a", "option": "than" },
+      { "id": "opt_gra_34_b", "option": "when" },
+      { "id": "opt_gra_34_c", "option": "then" },
+      { "id": "opt_gra_34_d", "option": "after" }
+    ],
+    "correctOptionId": "opt_gra_34_b",
+    "answerExplanation": "'Hardly' corresponds with 'when'. ('No sooner' corresponds with 'than')."
+  },
+  {
+    "id": "gra_35",
+    "type": "gra",
+    "question": "Select the correct verb: 'The jury ___ divided in their opinions.'",
+    "options": [
+      { "id": "opt_gra_35_a", "option": "was" },
+      { "id": "opt_gra_35_b", "option": "were" },
+      { "id": "opt_gra_35_c", "option": "is" },
+      { "id": "opt_gra_35_d", "option": "has" }
+    ],
+    "correctOptionId": "opt_gra_35_b",
+    "answerExplanation": "When a collective noun acts as individuals (divided opinions), it takes a plural verb."
+  },
+  {
+    "id": "gra_36",
+    "type": "gra",
+    "question": "Choose the correct pronoun: 'It is a secret between you and ___.'",
+    "options": [
+      { "id": "opt_gra_36_a", "option": "I" },
+      { "id": "opt_gra_36_b", "option": "me" },
+      { "id": "opt_gra_36_c", "option": "mine" },
+      { "id": "opt_gra_36_d", "option": "myself" }
+    ],
+    "correctOptionId": "opt_gra_36_b",
+    "answerExplanation": "Prepositions (between) are followed by object pronouns ('me', not 'I')."
+  },
+  {
+    "id": "gra_37",
+    "type": "gra",
+    "question": "Choose the correct word: 'I am going to ___ down for a nap.'",
+    "options": [
+      { "id": "opt_gra_37_a", "option": "lie" },
+      { "id": "opt_gra_37_b", "option": "lay" },
+      { "id": "opt_gra_37_c", "option": "laid" },
+      { "id": "opt_gra_37_d", "option": "lain" }
+    ],
+    "correctOptionId": "opt_gra_37_a",
+    "answerExplanation": "'Lie' means to recline (intransitive). 'Lay' means to put something down (transitive)."
+  },
+  {
+    "id": "gra_38",
+    "type": "gra",
+    "question": "Choose the correct word: 'The pollution will ___ the climate.'",
+    "options": [
+      { "id": "opt_gra_38_a", "option": "effect" },
+      { "id": "opt_gra_38_b", "option": "affect" },
+      { "id": "opt_gra_38_c", "option": "affects" },
+      { "id": "opt_gra_38_d", "option": "effects" }
+    ],
+    "correctOptionId": "opt_gra_38_b",
+    "answerExplanation": "'Affect' is usually a verb meaning to influence. 'Effect' is usually a noun meaning result."
+  },
+  {
+    "id": "gra_39",
+    "type": "gra",
+    "question": "Choose the correct word: 'A large ___ of people gathered.'",
+    "options": [
+      { "id": "opt_gra_39_a", "option": "amount" },
+      { "id": "opt_gra_39_b", "option": "number" },
+      { "id": "opt_gra_39_c", "option": "quantity" },
+      { "id": "opt_gra_39_d", "option": "deal" }
+    ],
+    "correctOptionId": "opt_gra_39_b",
+    "answerExplanation": "Use 'number' for countable nouns (people). Use 'amount' for uncountable nouns."
+  },
+  {
+    "id": "gra_40",
+    "type": "gra",
+    "question": "Choose the correct word: 'I have ___ friends than you.'",
+    "options": [
+      { "id": "opt_gra_40_a", "option": "less" },
+      { "id": "opt_gra_40_b", "option": "fewer" },
+      { "id": "opt_gra_40_c", "option": "lesser" },
+      { "id": "opt_gra_40_d", "option": "few" }
+    ],
+    "correctOptionId": "opt_gra_40_b",
+    "answerExplanation": "Use 'fewer' with countable nouns (friends). Use 'less' with uncountable nouns."
+  },
+  {
+    "id": "phv_21",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Blow up'",
+    "options": [
+      { "id": "opt_phv_21_a", "option": "To inflate or explode" },
+      { "id": "opt_phv_21_b", "option": "To fly" },
+      { "id": "opt_phv_21_c", "option": "To leave" },
+      { "id": "opt_phv_21_d", "option": "To cook" }
+    ],
+    "correctOptionId": "opt_phv_21_a",
+    "answerExplanation": "To explode or to fill with air."
+  },
+  {
+    "id": "phv_22",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Break in'",
+    "options": [
+      { "id": "opt_phv_22_a", "option": "To fix" },
+      { "id": "opt_phv_22_b", "option": "To enter a building forcibly" },
+      { "id": "opt_phv_22_c", "option": "To interrupt" },
+      { "id": "opt_phv_22_d", "option": "To dance" }
+    ],
+    "correctOptionId": "opt_phv_22_b",
+    "answerExplanation": "To enter illegally or forcibly; can also mean to wear something until comfortable."
+  },
+  {
+    "id": "phv_23",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Check out'",
+    "options": [
+      { "id": "opt_phv_23_a", "option": "To draw a check" },
+      { "id": "opt_phv_23_b", "option": "To leave a hotel or investigate" },
+      { "id": "opt_phv_23_c", "option": "To ignore" },
+      { "id": "opt_phv_23_d", "option": "To enter" }
+    ],
+    "correctOptionId": "opt_phv_23_b",
+    "answerExplanation": "To pay the bill and leave a hotel; also means to look at or investigate something."
+  },
+  {
+    "id": "phv_24",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Come across'",
+    "options": [
+      { "id": "opt_phv_24_a", "option": "To cross a street" },
+      { "id": "opt_phv_24_b", "option": "To find or meet by chance" },
+      { "id": "opt_phv_24_c", "option": "To get angry" },
+      { "id": "opt_phv_24_d", "option": "To visit" }
+    ],
+    "correctOptionId": "opt_phv_24_b",
+    "answerExplanation": "To find something or someone by chance."
+  },
+  {
+    "id": "phv_25",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Drop off'",
+    "options": [
+      { "id": "opt_phv_25_a", "option": "To fall" },
+      { "id": "opt_phv_25_b", "option": "To deliver someone/something or fall asleep" },
+      { "id": "opt_phv_25_c", "option": "To break" },
+      { "id": "opt_phv_25_d", "option": "To quit" }
+    ],
+    "correctOptionId": "opt_phv_25_b",
+    "answerExplanation": "To take someone/something to a place and leave them there; also means to start sleeping."
+  },
+  {
+    "id": "phv_26",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Eat out'",
+    "options": [
+      { "id": "opt_phv_26_a", "option": "To eat outside in the park" },
+      { "id": "opt_phv_26_b", "option": "To eat at a restaurant" },
+      { "id": "opt_phv_26_c", "option": "To eat quickly" },
+      { "id": "opt_phv_26_d", "option": "To eat everything" }
+    ],
+    "correctOptionId": "opt_phv_26_b",
+    "answerExplanation": "To have a meal in a restaurant rather than at home."
+  },
+  {
+    "id": "phv_27",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Fall apart'",
+    "options": [
+      { "id": "opt_phv_27_a", "option": "To trip" },
+      { "id": "opt_phv_27_b", "option": "To break into pieces or be emotionally upset" },
+      { "id": "opt_phv_27_c", "option": "To move away" },
+      { "id": "opt_phv_27_d", "option": "To build" }
+    ],
+    "correctOptionId": "opt_phv_27_b",
+    "answerExplanation": "To break or disintegrate; to lose emotional control."
+  },
+  {
+    "id": "phv_28",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Fill in'",
+    "options": [
+      { "id": "opt_phv_28_a", "option": "To pour water" },
+      { "id": "opt_phv_28_b", "option": "To complete a form or substitute for someone" },
+      { "id": "opt_phv_28_c", "option": "To dig" },
+      { "id": "opt_phv_28_d", "option": "To enter" }
+    ],
+    "correctOptionId": "opt_phv_28_b",
+    "answerExplanation": "To add information to a document; to do someone's job temporarily."
+  },
+  {
+    "id": "phv_29",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Get away'",
+    "options": [
+      { "id": "opt_phv_29_a", "option": "To enter" },
+      { "id": "opt_phv_29_b", "option": "To escape or go on vacation" },
+      { "id": "opt_phv_29_c", "option": "To buy" },
+      { "id": "opt_phv_29_d", "option": "To capture" }
+    ],
+    "correctOptionId": "opt_phv_29_b",
+    "answerExplanation": "To escape from a person or place; to go somewhere for a holiday."
+  },
+  {
+    "id": "phv_30",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Get over'",
+    "options": [
+      { "id": "opt_phv_30_a", "option": "To jump" },
+      { "id": "opt_phv_30_b", "option": "To recover from an illness or upset" },
+      { "id": "opt_phv_30_c", "option": "To climb" },
+      { "id": "opt_phv_30_d", "option": "To ignore" }
+    ],
+    "correctOptionId": "opt_phv_30_b",
+    "answerExplanation": "To recover from something (like sickness or a breakup)."
+  },
+  {
+    "id": "phv_31",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Give in'",
+    "options": [
+      { "id": "opt_phv_31_a", "option": "To donate" },
+      { "id": "opt_phv_31_b", "option": "To surrender or agree to something you didn't want to" },
+      { "id": "opt_phv_31_c", "option": "To take" },
+      { "id": "opt_phv_31_d", "option": "To help" }
+    ],
+    "correctOptionId": "opt_phv_31_b",
+    "answerExplanation": "To cease fighting or arguing; admit defeat."
+  },
+  {
+    "id": "phv_32",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Go on'",
+    "options": [
+      { "id": "opt_phv_32_a", "option": "To stop" },
+      { "id": "opt_phv_32_b", "option": "To continue or happen" },
+      { "id": "opt_phv_32_c", "option": "To leave" },
+      { "id": "opt_phv_32_d", "option": "To enter" }
+    ],
+    "correctOptionId": "opt_phv_32_b",
+    "answerExplanation": "To continue; to happen or take place."
+  },
+  {
+    "id": "phv_33",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Grow up'",
+    "options": [
+      { "id": "opt_phv_33_a", "option": "To become taller" },
+      { "id": "opt_phv_33_b", "option": "To become an adult or behave maturely" },
+      { "id": "opt_phv_33_c", "option": "To plant" },
+      { "id": "opt_phv_33_d", "option": "To lift" }
+    ],
+    "correctOptionId": "opt_phv_33_b",
+    "answerExplanation": "To advance to maturity; develop into an adult."
+  },
+  {
+    "id": "phv_34",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Hang out'",
+    "options": [
+      { "id": "opt_phv_34_a", "option": "To dry clothes" },
+      { "id": "opt_phv_34_b", "option": "To spend time socially" },
+      { "id": "opt_phv_34_c", "option": "To fall" },
+      { "id": "opt_phv_34_d", "option": "To suspend" }
+    ],
+    "correctOptionId": "opt_phv_34_b",
+    "answerExplanation": "To spend time relaxing or socializing."
+  },
+  {
+    "id": "phv_35",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Hold on'",
+    "options": [
+      { "id": "opt_phv_35_a", "option": "To wait" },
+      { "id": "opt_phv_35_b", "option": "To drop" },
+      { "id": "opt_phv_35_c", "option": "To leave" },
+      { "id": "opt_phv_35_d", "option": "To run" }
+    ],
+    "correctOptionId": "opt_phv_35_a",
+    "answerExplanation": "To wait for a short time; also means to grip something."
+  },
+  {
+    "id": "phv_36",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Let down'",
+    "options": [
+      { "id": "opt_phv_36_a", "option": "To lower" },
+      { "id": "opt_phv_36_b", "option": "To disappoint" },
+      { "id": "opt_phv_36_c", "option": "To drop" },
+      { "id": "opt_phv_36_d", "option": "To allow" }
+    ],
+    "correctOptionId": "opt_phv_36_b",
+    "answerExplanation": "To fail to support or help someone as they had hoped; disappoint."
+  },
+  {
+    "id": "phv_37",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Look up'",
+    "options": [
+      { "id": "opt_phv_37_a", "option": "To see the sky" },
+      { "id": "opt_phv_37_b", "option": "To search for information or improve" },
+      { "id": "opt_phv_37_c", "option": "To admire" },
+      { "id": "opt_phv_37_d", "option": "To stand" }
+    ],
+    "correctOptionId": "opt_phv_37_b",
+    "answerExplanation": "To search for something (in a dictionary/online); also means things are getting better."
+  },
+  {
+    "id": "phv_38",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Make up'",
+    "options": [
+      { "id": "opt_phv_38_a", "option": "To paint" },
+      { "id": "opt_phv_38_b", "option": "To invent a story or reconcile after a fight" },
+      { "id": "opt_phv_38_c", "option": "To clean" },
+      { "id": "opt_phv_38_d", "option": "To build" }
+    ],
+    "correctOptionId": "opt_phv_38_b",
+    "answerExplanation": "To invent (an excuse/story) or to become friendly again after an argument."
+  },
+  {
+    "id": "phv_39",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Pick up'",
+    "options": [
+      { "id": "opt_phv_39_a", "option": "To drop" },
+      { "id": "opt_phv_39_b", "option": "To lift, collect someone, or learn something" },
+      { "id": "opt_phv_39_c", "option": "To throw" },
+      { "id": "opt_phv_39_d", "option": "To ignore" }
+    ],
+    "correctOptionId": "opt_phv_39_b",
+    "answerExplanation": "To lift something; collect someone; or learn a skill without formal study."
+  },
+  {
+    "id": "phv_40",
+    "type": "phv",
+    "question": "Select the correct meaning for: 'Run out'",
+    "options": [
+      { "id": "opt_phv_40_a", "option": "To jog outside" },
+      { "id": "opt_phv_40_b", "option": "To use all of something so there is none left" },
+      { "id": "opt_phv_40_c", "option": "To escape" },
+      { "id": "opt_phv_40_d", "option": "To enter" }
+    ],
+    "correctOptionId": "opt_phv_40_b",
+    "answerExplanation": "To finish a supply of something."
+  }
+
+
 ];
+
+
+
+

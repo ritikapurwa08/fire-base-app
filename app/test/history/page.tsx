@@ -58,7 +58,7 @@ export default function HistoryPage() {
                 <div
                   className={`flex h-12 w-12 items-center justify-center rounded-full ${
                     session.score / session.totalQuestions >= 0.8
-                      ? 'bg-green-100 text-green-700'
+                      ? 'bg-green-100 text-gree-200'
                       : 'bg-orange-100 text-orange-700'
                   }`}
                 >
