@@ -6,7 +6,9 @@ import { SignUpForm } from '@/components/auth/sign-up-form';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 
-export default function AuthPage() {
+import { Suspense } from 'react';
+
+function AuthContent() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -68,5 +70,15 @@ export default function AuthPage() {
         </AnimatePresence>
       </div>
     </div>
+  );
+}
+
+export default function AuthPage() {
+  return (
+    <Suspense
+      fallback={<div className="flex h-screen items-center justify-center">Loading...</div>}
+    >
+      <AuthContent />
+    </Suspense>
   );
 }
