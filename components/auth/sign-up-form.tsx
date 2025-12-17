@@ -23,6 +23,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from '@/components/ui/card';
 import { toast } from 'sonner';
 import { Loader2 } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 const formSchema = z
   .object({
@@ -37,7 +38,7 @@ const formSchema = z
 
 export function SignUpForm() {
   const [isLoading, setIsLoading] = useState(false);
-
+  const router = useRouter();
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -70,6 +71,7 @@ export function SignUpForm() {
       toast.error(errorMessage);
     } finally {
       setIsLoading(false);
+      router.push('/dashboard');
     }
   }
 

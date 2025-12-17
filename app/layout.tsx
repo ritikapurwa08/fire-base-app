@@ -1,25 +1,16 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono, Lexend, Hind } from 'next/font/google';
+import { Inter, Roboto } from 'next/font/google';
 import './globals.css';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const RobotoFont = Roboto({
   subsets: ['latin'],
+  variable: '--font-roboto',
+  weight: ['700'],
 });
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const InterFont = Inter({
   subsets: ['latin'],
-});
-
-const hind = Hind({
-  variable: '--font-hind',
-  subsets: ['latin'],
-  weight: '400',
-});
-const lexend = Lexend({
-  variable: '--font-lexend',
-  subsets: ['latin'],
+  variable: '--font-inter',
+  weight: ['400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -30,7 +21,6 @@ export const metadata: Metadata = {
 import { Toaster } from '@/components/ui/sonner';
 import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import CustomSidebar from '@/components/custom-sidebar';
-
 import { AuthProvider } from '@/components/auth-provider';
 import { ThemeProvider } from '@/components/theme-provider';
 
@@ -41,9 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} font-lexend  font-lex ${hind.variable} ${lexend.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`font-inter  antialiased ${InterFont.variable}`}>
         <AuthProvider>
           <ThemeProvider
             attribute={'class'}

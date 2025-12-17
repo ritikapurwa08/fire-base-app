@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Home, LayoutDashboard, FlaskConical } from 'lucide-react';
+import { Home, LayoutDashboard, Brain, History } from 'lucide-react';
 import Link from 'next/link';
 import {
   Sidebar,
@@ -31,9 +31,14 @@ import { useAuth } from '@/hooks/use-auth';
 import { signOut } from 'firebase/auth';
 import { auth } from '@/lib/firebase';
 
+import { usePathname } from 'next/navigation';
+
 const CustomSidebar = () => {
+  const pathname = usePathname();
   const { user } = useAuth();
   const { isMobile } = useSidebar();
+
+  if (pathname === '/' || pathname === '/auth') return null;
 
   const items = [
     {
@@ -47,9 +52,14 @@ const CustomSidebar = () => {
       icon: LayoutDashboard,
     },
     {
-      title: 'Test',
+      title: 'Practice Tests',
       url: '/test',
-      icon: FlaskConical,
+      icon: Brain,
+    },
+    {
+      title: 'History',
+      url: '/test/history',
+      icon: History,
     },
   ];
 
